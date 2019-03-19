@@ -65,10 +65,10 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Brendon Page.
         </BigTitle>
-        <Subtitle>I'm a dev that loves TDD, engaging with the community, teaching and learning.</Subtitle>
+        <Subtitle>I love TDD, engaging with the community, teaching and learning.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Personal Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="Durban Agile User Group"
@@ -76,6 +76,13 @@ const Index = () => (
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This is the local user group that I contribute to.
+          </ProjectCard>
+          <ProjectCard
+            title="Code Retreat South Africa"
+            link="https://google.com"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            South African Code Retreat meetup that I'm involved in.
           </ProjectCard>
           <ProjectCard
             title="TDD Buddy"
@@ -111,15 +118,23 @@ const Index = () => (
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Brendon Page" />
-          <AboutSub>Things go here.</AboutSub>
+          <AboutSub>
+            Software Developer, Trainer, Team Lead and Delivery Manager at{' '}
+            <a href="http://www.chillisoft.co.za">Chillisoft</a>.
+          </AboutSub>
         </AboutHero>
-        <AboutDesc>More things go here.</AboutDesc>
+        <AboutDesc>
+          I'm passionate about writing software, in a sustainable way, that solves real problems. An avid TDD'er, love
+          to teach and spend a lot of my spare time speaking at or running dev focused community events. Lately a lot of
+          my thinking has been around how to be better at writing software with a primary focus on the thought process
+          of the developers themselves.
+        </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:brendonpage@live.co.za">Hi</a> or find me on other platforms:{' '}
+            Say <a href="mailto:brendonpage@live.co.za">Hi</a> or find me on{' '}
             <a href="https://twitter.com/brendonpaginate">Twitter</a>
           </ContactText>
         </Inner>
