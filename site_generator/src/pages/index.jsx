@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/brendon.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -72,14 +72,14 @@ const Index = () => (
         <ProjectsWrapper>
           <ProjectCard
             title="Durban Agile User Group"
-            link="https://google.com"
+            link="https://www.meetup.com/Durban-Agile-User-Group-Meetup/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             This is the local user group that I contribute to.
           </ProjectCard>
           <ProjectCard
             title="Code Retreat South Africa"
-            link="https://google.com"
+            link="https://www.meetup.com/coderetreat/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             South African Code Retreat meetup that I'm involved in.
@@ -93,21 +93,21 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Corners"
-            link="https://google.com"
+            link="https://gam.fitbit.com/gallery/clock/58216eb0-b4f0-4f94-8aef-384bf35ca155"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             A fitbit watch face that I made.
           </ProjectCard>
           <ProjectCard
             title="Hexagons"
-            link="https://google.com"
+            link="https://gam.fitbit.com/gallery/clock/a6ed4a7f-45f7-4ed8-9961-b8ce660b86a3"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A gamified fitbit watch face that I made.
           </ProjectCard>
           <ProjectCard
             title="Slide Desks"
-            link="https://google.com"
+            link="https://www.slideshare.net/brendonpage/presentations"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             The slide decks for all the talks I've given over the years.
