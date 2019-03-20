@@ -86,7 +86,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="TDD Buddy"
-            link="http://tddbuddy.com"
+            link="http://www.tddbuddy.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             A site that my friend Travis Frisinger runs that has a bunch of great TDD resources.
