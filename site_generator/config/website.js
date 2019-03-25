@@ -17,7 +17,7 @@ module.exports = {
   userTwitter: '@brendonpaginate', // Twitter Username
   ogSiteName: 'brendonpage', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-47519312-5',
+  googleAnalyticsID: 'UA-136820503-1',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
